@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./style.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="./index.js"></script>
+        <title>Personal Portfolio</title>
+    </head>
+    <body onresize="resizeHide()">
+        <section class="containers" id="sec1">
+            <div id="content">
+                <h3>
+                    Welcome to my page, my name is Shiva Sharvesh and I am a
+                </h3>
+                <br />
+                <h1>SOFTWARE DEVELOPER</h1>
+            </div>
+
+            <i
+                class="fa fa-angle-double-down"
+                id="down-arrow"
+                onclick="scrollit()"
+            ></i>
+        </section>
+        <div class="header">
+            <div class="head">
+                <div id="name">Shiva Sharvesh</div>
+                <div>
+                    <div class="nav">
+                        <ul>
+                            <li id="home">HOME</li>
+                            <li id="services">SERVICES</li>
+                            <li id="skills">SKILLS</li>
+                            <li id="works">WORKS</li>
+                        </ul>
+                    </div>
+
+                    <a onclick="menu()"><i class="fa fa-bars" id="menu"></i></a>
+                </div>
+            </div>
+            <div class="drop-down" id="drop-down">
+                <ul>
+                    <li id="home">HOME</li>
+                    <li id="services">SERVICES</li>
+                    <li id="skills">SKILLS</li>
+                    <li id="works">WORKS</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="containers" id="homepage"></section>
+
+        <section class="containers" id="servicespage"></section>
+
+        <section class="containers" id="skillspage"></section>
+        <section class="containers" id="workspage"></section>
+
+        <section id="footer">
+            <div id="icons">
+                <div id="lin-div">
+                    <a
+                        href="https://www.linkedin.com/in/m-shiva-sharvesh-875646193/"
+                        target="_blank"
+                    >
+                        <i class="fa fa-linkedin" id="lin"></i
+                    ></a>
+                </div>
+                <div id="lin-div">
+                    <a
+                        href="https://www.instagram.com/_shiva_sharvesh_/"
+                        target="_blank"
+                    >
+                        <i class="fa fa-instagram" id="lin"></i
+                    ></a>
+                </div>
+            </div>
+            <div id="end">
+                Made with
+                <i class="fa fa-heart fa-2x animated pulse" id="heart"></i> by
+                Shiva
+            </div>
+        </section>
+    </body>
+</html>
