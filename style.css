@@ -51,7 +51,7 @@
 }
 
 #homepage,
-#workspage {
+#skillspage {
     background-color: rgba(240, 240, 240, 0.726);
     /* height: max-content; */
 }
@@ -277,14 +277,16 @@ hr {
     height: 50px;
     margin-left: 150px;
     margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 #hed {
-    margin-left: 60px;
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 #hedui {
-    margin-left: 121px;
+    margin-left: 100px;
 }
 
 #w1 {
@@ -443,7 +445,8 @@ hr {
     line-height: 1;
     font-size: 40px;
     font-weight: 900;
-    z-index: -1;
+    z-index: 0;
+    color: black;
 }
 
 .skill-item .percent:after {
