@@ -18,9 +18,24 @@ function scrollit() {
     document.getElementById("homepage").scrollIntoView(true);
 }
 
-document.addEventListener("scroll", (e) => {
-    console.log(window);
+function scrollto(e) {
+    switch (e) {
+        case "home":
+            document.getElementById("homepage").scrollIntoView(true);
+            break;
+        case "services":
+            document.getElementById("servicepage").scrollIntoView(true);
+            break;
+        case "works":
+            document.getElementById("workspage").scrollIntoView(true);
+            break;
+        case "skills":
+            document.getElementById("skillspage").scrollIntoView(true);
+            break;
+    }
+}
 
+document.addEventListener("scroll", (e) => {
     if (window.scrollY > 200 && window.pageYOffset < 930) {
         document.getElementById("home").style.color = "red";
         document.getElementById("services").style.color = "black";
@@ -45,6 +60,6 @@ document.addEventListener("scroll", (e) => {
         document.getElementById("services").style.color = "black";
         document.getElementById("home").style.color = "black";
         document.getElementById("skills").style.color = "black";
-        document.getElementById("works").style.color = "red";
+        document.getElementById("works").style.color = "black";
     }
 });

@@ -117,6 +117,7 @@
 #drop-down ul li {
     padding: 10px;
     list-style: none;
+    cursor: pointer;
 }
 
 #name {
