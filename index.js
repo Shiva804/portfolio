@@ -21,17 +21,22 @@ function scrollit() {
 document.addEventListener("scroll", (e) => {
     console.log(window);
 
-    if (window.scrollY > 0 && window.pageYOffset < 1170) {
+    if (window.scrollY > 200 && window.pageYOffset < 930) {
         document.getElementById("home").style.color = "red";
         document.getElementById("services").style.color = "black";
         document.getElementById("skills").style.color = "black";
         document.getElementById("works").style.color = "black";
-    } else if (window.pageYOffset > 1170 && window.pageYOffset < 1690) {
+    } else if (window.pageYOffset > 930 && window.pageYOffset < 1440) {
         document.getElementById("services").style.color = "red";
         document.getElementById("home").style.color = "black";
         document.getElementById("skills").style.color = "black";
         document.getElementById("works").style.color = "black";
-    } else if (window.pageYOffset > 1690 && window.pageYOffset < 2250) {
+    } else if (window.pageYOffset > 1440 && window.pageYOffset < 2250) {
+        document.getElementById("services").style.color = "black";
+        document.getElementById("home").style.color = "black";
+        document.getElementById("skills").style.color = "black";
+        document.getElementById("works").style.color = "red";
+    } else if (window.pageYOffset > 2250) {
         document.getElementById("services").style.color = "black";
         document.getElementById("home").style.color = "black";
         document.getElementById("skills").style.color = "red";

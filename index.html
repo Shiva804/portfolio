@@ -9,7 +9,14 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+
+ <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
         <script src="./index.js"></script>
+       
+
+        
         <title>Personal Portfolio</title>
     </head>
     <body onresize="resizeHide()">
@@ -36,8 +43,9 @@
                         <ul>
                             <li id="home">HOME</li>
                             <li id="services">SERVICES</li>
-                            <li id="skills">SKILLS</li>
                             <li id="works">WORKS</li>
+
+                            <li id="skills">SKILLS</li>
                         </ul>
                     </div>
 
@@ -48,18 +56,265 @@
                 <ul>
                     <li id="home">HOME</li>
                     <li id="services">SERVICES</li>
-                    <li id="skills">SKILLS</li>
                     <li id="works">WORKS</li>
+
+                    <li id="skills">SKILLS</li>
                 </ul>
             </div>
         </div>
 
-        <section class="containers" id="homepage"></section>
+        <section class="containers" id="homepage">
+            <div id="about">
+                <h1>About Me</h1>
 
-        <section class="containers" id="servicespage"></section>
+                <hr />
 
-        <section class="containers" id="skillspage"></section>
-        <section class="containers" id="workspage"></section>
+                <p>
+                    I am an ardent <b>Full Stack Developer </b>with adequate
+                    knowledge of Frontend and Backend Technologies! I have
+                    worked with languages such as HTML,CSS,JavaScript, NodeJS
+                    and Git.<br /><br />
+                    I am a <b>MERN Stack</b> (MONGO, EXPRESS, REACT, NODE)
+                    developer and I have developed several webapps and dynamic
+                    websites, also have knowledge on data analysis. Iam well
+                    versed with C and Python programming languages as well.
+                    Also, I have good problem solving and cognitive skills.
+                </p>
+            </div>
+
+            <div class="boxes">
+                <div class="box">
+                    <img
+                        id="fe"
+                        src="https://www.flaticon.com/svg/vstatic/svg/2919/2919743.svg?token=exp=1619888288~hmac=04525685f36f7f471b10b62959fcf29a"
+                    />
+                    <h4 id="hed">FRONTEND WEB DEVELOPMENT</h4>
+                    <p>
+                        Well versed in React library, HTML,CSS and JS along with
+                        frameworks like bootstrap and Material UI.
+                    </p>
+                </div>
+                <div class="box">
+                    <img
+                        src="https://www.flaticon.com/svg/vstatic/svg/2972/2972479.svg?token=exp=1619888805~hmac=e4787fdbfb66ef031aaa41bfacb7d808"
+                        id="fe"
+                    />
+                    <h4 id="hed">BACKEND WEB DEVELOPMENT</h4>
+
+                    <p>
+                        Can build efficient server-side web application with
+                        NodeJS or Flask using MongoDB or Mysql or Firebase.
+                    </p>
+                </div>
+                <div class="box">
+                    <img
+                        src="https://www.flaticon.com/svg/vstatic/svg/3939/3939992.svg?token=exp=1619888268~hmac=2b8a09116c891eb8c37b99b44b13af41"
+                        id="fe"
+                    />
+                    <h4 id="hedui">UI/UX DESIGN</h4>
+
+                    <p>
+                        Can design attractive and user friendly interface in
+                        Figma or AdobeXD.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="containers" id="workspage">
+            <h1>My Works</h1>
+
+            <hr />
+
+            <div id="works">
+                <div id="w1">
+                <a href="https://github.com/Shiva804/notes_keeper" style="text-decoration: none;">
+
+                    <div class="bord">
+                        
+                        <h3>Picky Notes</h3>
+                        
+                        <p id="as">
+                            A web app to store and look into our notes anytime!
+                        </p>
+                    </div>
+            </a>
+
+                </div>
+
+               
+                <div id="w3">
+                    <a href='https://github.com/Shiva804/TextToHandwriting' style="text-decoration: none;">
+                    <div class="bord">
+                        <h3>Text To Handwriting</h3>
+                 
+
+                        <p id="as">
+                            A python app to convert text to handwriting!
+                        </p>
+                    </div>
+                    </a>
+                </div>
+      
+
+            <div id="w2">
+            <a href="https://github.com/Shiva804/News-Today" style="text-decoration: none;">
+
+                <div class="bord">
+
+                    <h3>News Today</h3>
+       
+
+                    <p id="as">
+                        A news app which includes a live covid cases tracker and a weather forecaster!
+                    </p>
+                </div>
+        </a>
+
+            </div>
+        </div>
+            </div>
+
+
+
+
+
+
+
+
+        </section>
+        <section class="containers" id="skillspage">
+
+
+
+
+			<div class="b-skills">
+				<div class="container">
+					<h1 id='skill'>My Skills</h1>
+                  
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart " data-percent="85" data-bar-color="#23afe3">
+										<span class="percent" data-after="%">85</span>
+									</div>
+								</div>
+
+								<p>Frontend Web Development</p>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart " data-percent="80" data-bar-color="#a7d212">
+										<span class="percent" data-after="%">80</span>
+									</div>
+								</div>
+
+								<p>Backend Web Development</p>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart " data-percent="90" data-bar-color="#ff4241">
+										<span class="percent" data-after="%">90</span>
+									</div>
+								</div>
+
+								<p>UI/UX Design</p>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="skill-item center-block">
+								<div class="chart-container">
+									<div class="chart " data-percent="75" data-bar-color="#edc214">
+										<span class="percent" data-after="%">75</span>
+									</div>
+								</div>
+
+								<p>Python programming</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+             
+  
+ <script src="plugins/jquery-2.2.4.min.js"></script>
+ <script src="plugins/jquery.appear.min.js"></script>
+ <script src="plugins/jquery.easypiechart.min.js"></script> 
+ <script>
+    'use strict';
+
+var $window = $(window);
+
+function run()
+{
+	var fName = arguments[0],
+		aArgs = Array.prototype.slice.call(arguments, 1);
+	try {
+		fName.apply(window, aArgs);
+	} catch(err) {
+		 
+	}
+};
+ 
+/* chart
+================================================== */
+function _chart ()
+{
+	$('.b-skills').appear(function() {
+		setTimeout(function() {
+			$('.chart').easyPieChart({
+				easing: 'easeOutElastic',
+				delay: 3000,
+				barColor: '#369670',
+				trackColor: '#fff',
+				scaleColor: false,
+				lineWidth: 21,
+				trackWidth: 21,
+				size: 250,
+				lineCap: 'round',
+				onStep: function(from, to, percent) {
+					this.el.children[0].innerHTML = Math.round(percent);
+				}
+			});
+		}, 150);
+	});
+};
+ 
+
+$(document).ready(function() {
+  
+	run(_chart);
+  
+    
+});
+
+
+    
+    </script>
+
+
+
+
+        </section>
 
         <section id="footer">
             <div id="icons">
@@ -77,6 +332,11 @@
                         target="_blank"
                     >
                         <i class="fa fa-instagram" id="lin"></i
+                    ></a>
+                </div>
+                <div id="lin-div">
+                    <a href="https://github.com/Shiva804" target="_blank">
+                        <i class="fa fa-github" id="lin"></i
                     ></a>
                 </div>
             </div>
