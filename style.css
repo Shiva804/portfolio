@@ -63,7 +63,6 @@
 #homepage,
 #skillspage {
     background-color: rgba(240, 240, 240, 0.726);
-    /* height: max-content; */
 }
 #down-arrow {
     color: white;
@@ -501,10 +500,6 @@ p {
         padding: 40px;
     }
 
-    .b-skills {
-        margin-left: 100px;
-    }
-
     #skill {
         color: rgb(36, 35, 35);
         letter-spacing: 5px;
@@ -513,8 +508,34 @@ p {
         margin-top: 100px;
         text-align: center;
     }
+}
 
-    #skillspage .b-skills .container {
-        margin-left: -50px;
+@media (max-width: 560px) {
+    .b-skills {
+        margin-left: 150px;
+    }
+
+    #skillspage h1 {
+        margin-left: -120px;
+    }
+}
+
+@media (max-width: 470px) {
+    .b-skills {
+        margin-left: 90px;
+    }
+
+    #skillspage h1 {
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 400px) {
+    .b-skills {
+        margin-left: 50px;
+    }
+
+    #skillspage h1 {
+        margin-left: -60px;
     }
 }
