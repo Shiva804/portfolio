@@ -512,22 +512,10 @@ p {
         font-weight: bolder;
         margin-top: 100px;
         text-align: center;
-        margin-left: -100px;
     }
-    /* #homepage {
-        height: max-content;
-    } */
-}
-/* @media (max-width: 1190px) {
-    #homepage {
-        height: 280vh;
-        height: max-content;
-    }
-} */
 
-/* @media (max-width: 790px) {
-    #homepage {
-        height: 330vh;
-        height: max-content;
+    #skillspage .b-skills .container {
+        border: 2px solid black;
+        margin-left: -50px;
     }
-} */
+}
