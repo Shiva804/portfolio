@@ -300,9 +300,15 @@ hr {
     margin-left: 100px;
 }
 
+#works-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 #w1 {
-    height: 330px;
-    width: 440px;
+    height: 300px;
+    width: 450px;
     margin: 22px;
     margin-top: 50px;
     background-image: url("./images/notes.png");
@@ -329,8 +335,8 @@ hr {
 }
 
 #w2 {
-    height: 300px;
-    width: 500px;
+    height: 290px;
+    width: 490px;
     margin: 20px;
     margin-top: 50px;
     background-image: url("./images/news.png");
@@ -342,7 +348,7 @@ hr {
     text-align: center;
 }
 #w2 h3 {
-    padding: 30px;
+    padding: 9px;
     font-size: 24px;
     color: white;
 }
@@ -383,14 +389,6 @@ hr {
 
 #w3:hover {
     transform: scale(1.05);
-}
-
-#works {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bord {
