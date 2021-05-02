@@ -15,6 +15,8 @@
     background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=david-schultz-SrewPUfo2c0-unsplash.jpg");
     background-size: cover;
     height: 100vh;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.438);
     max-width: 100%;
 }
 #sec1 h3 {
@@ -33,6 +35,14 @@
     transform: translate(-50%, -50%);
     animation: opens 1.5s;
     animation-timing-function: linear;
+}
+
+#content h1 {
+    font-weight: bolder;
+}
+
+#content h3 {
+    font-weight: bolder;
 }
 
 @keyframes opens {
@@ -271,6 +281,7 @@ hr {
 .box p {
     padding: 10px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.658);
 }
 
 #fe {
